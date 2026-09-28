@@ -17,7 +17,7 @@ The TopOn Moloco mediation adapter for iOS, distributed via Swift Package Manage
    ```
    https://github.com/toponteam-packages/TPNMediationMolocoAdapter_SPM
    ```
-3. Select **Exact Version** and enter the target version (e.g. `4.8.0-2.1`).
+3. Select **Exact Version** and enter the target version (e.g. `40800.2.1`).
 4. Add the `TPNMediationMolocoAdapter` product to your app target.
 5. In your target's **Build Settings**, add `-ObjC` to **Other Linker Flags**.
 
@@ -27,7 +27,7 @@ The TopOn Moloco mediation adapter for iOS, distributed via Swift Package Manage
 dependencies: [
     .package(
         url: "https://github.com/toponteam-packages/TPNMediationMolocoAdapter_SPM.git",
-        exact: "4.8.0-2.1"
+        exact: "40800.2.1"
     )
 ]
 ```
